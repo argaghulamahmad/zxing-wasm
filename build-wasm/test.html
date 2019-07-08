@@ -59,7 +59,7 @@
 					for (var i = 0, j = 0; i < idd.length; i += 4, j++) {
 						ZXing.HEAPU8[image + j] = idd[i];
 					}
-					err = ZXing._decode_qr_multi();
+					// err = ZXing._decode_qr_multi();
 					err = ZXing._decode_qr();
 				}
 
@@ -70,7 +70,7 @@
 				err = ZXing._decode_qr();
 				console.timeEnd("decode QR");
 
-				console.time("decode QR multi");
+				/*console.time("decode QR multi");
 				for (var i = 0, j = 0; i < idd.length; i += 4, j++) {
 					ZXing.HEAPU8[image + j] = idd[i];
 				}
@@ -89,7 +89,7 @@
 					ZXing.HEAPU8[image + j] = idd[i];
 				}
 				err = ZXing._decode_multi();
-				console.timeEnd("decode multi");
+				console.timeEnd("decode multi");*/
 
 			};
 		};
