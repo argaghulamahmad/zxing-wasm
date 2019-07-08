@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zxing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzxing">
+				<Option output="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/libzxing.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/home/nakama/CLionProjects/zxing-cpp-emscripten/./core/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 libzxing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzxing/fast">
+				<Option output="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/libzxing.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/home/nakama/CLionProjects/zxing-cpp-emscripten/./core/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 libzxing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zxing">
+				<Option output="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/zxing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/home/nakama/CLionProjects/zxing-cpp-emscripten/./core/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 zxing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zxing/fast">
+				<Option output="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/zxing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/home/nakama/CLionProjects/zxing-cpp-emscripten/./core/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 zxing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nakama/CLionProjects/zxing-cpp-emscripten/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigInteger.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigInteger.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigIntegerAlgorithms.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigIntegerAlgorithms.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigIntegerLibrary.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigIntegerUtils.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigIntegerUtils.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigUnsigned.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigUnsigned.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigUnsignedInABase.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/BigUnsignedInABase.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/bigint/NumberlikeArray.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/win32/zxing/iconv.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/win32/zxing/stdint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/BarcodeFormat.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/BarcodeFormat.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Binarizer.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Binarizer.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/BinaryBitmap.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/BinaryBitmap.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ChecksumException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ChecksumException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/DecodeHints.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/DecodeHints.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Exception.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Exception.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/FormatException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/FormatException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/IllegalStateException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/InvertedLuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/InvertedLuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/LuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/LuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/MultiFormatReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/MultiFormatReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/NotFoundException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ReaderException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Result.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/Result.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ResultIO.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ResultPoint.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ResultPoint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ResultPointCallback.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ResultPointCallback.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/ZXing.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/AztecDetectorResult.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/AztecDetectorResult.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/AztecReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/AztecReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/aztec/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/Array.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitArray.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitArray.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitArrayIO.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitMatrix.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitMatrix.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/BitSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/CharacterSetECI.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/CharacterSetECI.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/Counted.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/DecoderResult.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/DecoderResult.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/DetectorResult.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/DetectorResult.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GlobalHistogramBinarizer.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GlobalHistogramBinarizer.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GreyscaleLuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GreyscaleLuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GreyscaleRotatedLuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GreyscaleRotatedLuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GridSampler.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/GridSampler.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/HybridBinarizer.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/HybridBinarizer.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/IllegalArgumentException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/IllegalArgumentException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/PerspectiveTransform.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/PerspectiveTransform.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/Point.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/Str.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/Str.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/StringUtils.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/StringUtils.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/detector/JavaMath.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/detector/MathUtils.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/detector/MonochromeRectangleDetector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/detector/MonochromeRectangleDetector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/detector/WhiteRectangleDetector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/detector/WhiteRectangleDetector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/GenericGF.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/GenericGF.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/GenericGFPoly.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/GenericGFPoly.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/ReedSolomonException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/common/reedsolomon/ReedSolomonException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/DataMatrixReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/DataMatrixReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/Version.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/Version.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/BitMatrixParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/DataBlock.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/DataBlock.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/detector/CornerPoint.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/detector/CornerPoint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/detector/DetectorException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/datamatrix/detector/DetectorException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/ByQuadrantReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/ByQuadrantReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/GenericMultipleBarcodeReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/GenericMultipleBarcodeReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/MultipleBarcodeReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/MultipleBarcodeReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/qrcode/QRCodeMultiReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/qrcode/QRCodeMultiReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/qrcode/detector/MultiDetector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/qrcode/detector/MultiDetector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/CodaBarReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/CodaBarReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/Code128Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/Code128Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/Code39Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/Code39Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/Code93Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/Code93Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/EAN13Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/EAN13Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/EAN8Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/EAN8Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/ITFReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/ITFReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/MultiFormatOneDReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/MultiFormatOneDReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/MultiFormatUPCEANReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/MultiFormatUPCEANReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/OneDReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/OneDReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/OneDResultPoint.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/OneDResultPoint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/UPCAReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/UPCAReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/UPCEANReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/UPCEANReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/UPCEReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/oned/UPCEReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/PDF417Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/PDF417Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/BitMatrixParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/BitMatrixParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/DecodedBitStreamParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/DecodedBitStreamParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/ec/ErrorCorrection.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/ec/ErrorCorrection.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/ec/ModulusGF.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/ec/ModulusGF.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/ec/ModulusPoly.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/decoder/ec/ModulusPoly.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/detector/LinesSampler.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/pdf417/detector/LinesSampler.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/ErrorCorrectionLevel.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/ErrorCorrectionLevel.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/FormatInformation.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/FormatInformation.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/QRCodeReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/QRCodeReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/Version.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/Version.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/BitMatrixParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/DataBlock.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/DataBlock.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/DataMask.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/DataMask.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/Mode.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/decoder/Mode.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/AlignmentPattern.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/AlignmentPattern.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/AlignmentPatternFinder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/AlignmentPatternFinder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/FinderPattern.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/FinderPattern.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/FinderPatternFinder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/FinderPatternFinder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/FinderPatternInfo.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/core/src/zxing/qrcode/detector/FinderPatternInfo.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/emscripten/zxing.js.cpp">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/home/nakama/CLionProjects/zxing-cpp-emscripten/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
